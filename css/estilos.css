@@ -422,8 +422,8 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
     
      .appWhatsapp{
     position: fixed;
-    right: 120px;
-    bottom: 100px;
+    right: 18px;
+    bottom: 10px;
     width: 60px;
     z-index: 1000; 
     
