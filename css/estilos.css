@@ -419,6 +419,16 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
     }
        
     }
+
+  .appWhatsapp{
+    position: fixed;
+    right: 120px;
+    bottom: 100px;
+    width: 60px;
+    z-index: 1000; 
+    
+    
+    }
     @media (max-width: 500px){
         nav{
             text-align: center;
