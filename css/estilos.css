@@ -433,7 +433,17 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
     .appWhatsapp img{
     width: 100%;
     height: auto;
+	padding: 8px;
+    background: rgba(0,0,0,0.10);
+    cursor:pointer;
+    border-radius: 120%;
+    transition: all 300ms;    
+	    
 }
+	.appWhatsapp img{
+    	background: rgba(0,0,0,0.10);
+}
+
     @media (max-width: 500px){
         nav{
             text-align: center;
