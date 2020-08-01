@@ -485,8 +485,9 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
         }
         
         .cards .card img{
-            width: 90px;
-            height: 90px;
+         width: 90px;
+         height: 90px;
+	padding: 190px;
         }
         
         
@@ -530,7 +531,8 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
         
          .cards .card:first-child{
             
-            margin-bottom: 30%;            
+        margin-bottom: 30%; 
+	padding: 190px;
         }
         
         .servicio-cont{
