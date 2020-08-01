@@ -1,0 +1,591 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+      font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body{
+	font-family: georgia, times, serif; 
+	color: #333;
+	font-size: 1.2rem;
+	line-height: 1.6em;
+	margin: 0;
+	/*background: #000000;*/
+}
+
+.contenedor{
+	padding: 60px 0;    
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.titulo{
+	color: #642a73;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 60px;
+       font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+
+
+h1{
+font-size: 2rem;
+line-height: 1.3em;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+p{
+	margin-bottom: 1.6em;
+}
+.container{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+
+/*.header{
+	 background:rgba(255,255,255,0.5);
+	padding: 2rem 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;*/
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	height: 600px;
+	background: #2980b9;  /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, hsla(169,100%,100%,0.3), hsla(169,100%,95%,0.3)), url(../img/computador11.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+nav{
+	text-align:right;
+	padding: 30px 0px 0 0;
+
+}
+
+
+/*header{
+	background: #2980B9;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, hsla(340, 95%, 50%, 0.671), hsla(317, 95%, 50%, 0.671)), url(../img/computador14.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	color: #333;
+}
+
+.LOGO{
+	letter-spacing: 5px;
+	font-size: 1.8em;
+	color: #333;
+	text-decoration: none;
+	
+}
+
+.menu-icon{
+	display: none;
+
+}
+
+.navigation ul{
+	
+margin: 0;
+padding:0;
+list-style: none;
+
+
+}
+
+.navigation ul li{
+	display:inline-block;
+}
+
+.navigation ul li a{
+	display:block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 7px;
+	font-family: georgia, times, serif;
+	font-size: 1.2em;
+	color: #FFFCFC;
+	text-decoration: none;
+	
+
+}
+
+
+  .navigation li a:hover{
+        background: #44f28f;
+    }
+
+   	.main{
+	padding: top: 12rem;
+        
+
+   	}
+
+   	header .textos-header{
+   		display: flex;
+   		height: 428px;
+   		width: 100%;
+   		align-items: center;
+   		justify-content: center;
+   		flex-direction:column-reverse;
+        
+   		
+   	}
+
+   	.textos-header h1{
+   		font-size: 65px;
+   		color: #fff;
+   	}
+
+   	.textos-header h2{
+   		font-size: 39px;
+   		font-weight: 320;
+   		color: #fff;
+        font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+   	}
+
+   	.wave{
+   		position: absolute;
+   		bottom: 0;
+   		width: 100%;
+   	}
+
+   	.contenedor sobre-nosotros{
+   		display: flex;
+   		justify-content:space-around;
+   		margin-left: 170px;
+   		display: flex;
+   		text-align: right 
+            
+   	}
+
+   	.imagen-about-us{
+   		width: 48%;
+   	}
+
+    .sobre-nosotros .contenido-textos{
+   	width: 80%; 
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
+   	}
+
+    
+   	.contenido-textos h2{
+   		margin-bottom: 15px;
+   	}
+
+   	.contenido-textos h2 span{
+   		background:#4d0686;
+   		color: #fff;
+   		border-radius: 50%;
+   		display:inline-block;
+   		text-align: center;
+   		width: 30px;
+   		height: 30px;
+   		padding: 2px;
+   		box-shadow: 0 0 6px 0 rgba(0,0,0, .5);
+   		margin-right: 5px;
+   		float:left;
+
+   	}
+
+   	.contenido-textos p{
+   		padding: 0px 0px 30px 15px;
+   		font-weight: 300;
+   		text-align: justify;
+   		
+
+   	}
+
+   	.portafolio{
+   		background: #dfdfdf; 
+          font-family: 'Roboto', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+   	}
+   	.galeria-port{
+   		display: flex;
+   		justify-content: sp250-around;
+   		flex-wrap: wrap;
+        
+   	}
+
+   	.imagen-port{
+   		width: 24%;
+   		margin-bottom: 10px;
+   		height: 300px;
+   		overflow: hidden;
+   		position: relative;
+   		cursor: pointer;
+   		box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+   	}
+
+   	.imagen-port > img{
+   		width: 120%;
+   		height: 100%;
+   		object-fit: conver;
+   		display: block;
+   	}
+
+   	.hover-galeria{
+   		position: absolute;
+   		width: 100%;
+   		height: 100%;
+   		top: 0;
+   		transform: scale(0);
+   		background: hsla(430,91%,27%,0.7);
+   		transition: all 0.4s linear;
+   		display: flex;
+   		justify-content: center;
+   		align-items: center;
+   		flex-direction: column;
+   	}
+
+   	.hover-galeria img{
+   		width: 50px;   	
+   	}
+
+   	.hover-galeria p{
+   		color: #fff;
+   	}
+
+   	.imagen-port:hover .hover-galeria{
+   		transform: scale(1);
+   	}
+/*CLIENTES*/
+.cards{
+    display: flex;
+    justify-content: space-around;
+      font-family: 'Roboto', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.cards .card img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 80px;
+    color: black;    
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/*our team*/
+
+.about-services{
+    background: #dfdfdf;
+    padding-bottom: 30px;
+      font-family: 'Roboto', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.servicio-ind h3{
+  margin: 10px 0;  
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+    
+}
+
+    footer{
+    	background: #414141;
+    	padding: 60px 0 30px 0;
+    	text-align: center;
+    	margin:auto;
+        overflow: hidden;
+          font-family: 'Roboto', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+
+.contenedor-footer{
+    
+    display:flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc; 
+}
+
+.content-foo h4{
+  color: aliceblue;
+  border-bottom: 3px solid #fff;  
+}
+
+.content-foo p{
+    color: #ccc;    
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+    @media (max-width: 500px){
+
+  	.menu-icon{
+  		display: block;
+  		cursor: pointer;
+  		padding: 0.5rem 1rem;
+
+       	}
+
+    .navigation{
+    	width: 100%;
+    	margin-top: 1rem;
+    }
+
+    .navigation ul{
+    	display: none;
+    }
+
+      .navigation ul.show {
+    	display:block;
+
+    }	
+
+	.navigation ul li{
+	display:block;
+}
+
+	.navigation ul li a{
+	display: block;
+	padding: 0.5rem 0;
+	transition: all 0.4s linear;
+	border-radius: 5px;
+}
+
+
+  .navigation li a:hover  {
+        background: #44f28f;
+    }
+       
+    }
+    
+     .appWhatsapp{
+    position: fixed;
+    right: 18px;
+    bottom: 10px;
+    width: 60px;
+    z-index: 1000; 
+    
+    
+    }
+
+    .appWhatsapp img{
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    background: rgba(0,0,0,0.10);
+    cursor:pointer;
+    border-radius: 120%;
+    transition: all 300ms;
+        
+}
+.appWhatsapp img{
+    background: rgba(0,0,0,0.10);
+}
+
+
+
+
+    @media (max-width: 500px){
+        nav{
+            text-align: center;
+            padding: 30px
+        }
+        nav a{
+            margin-right: 5px;
+        }
+        
+        .textos-header h1{
+           font-size: 35px; 
+        }
+        .textos-header h2{
+            font-size: 20px;
+        }
+        
+        /*ABOUT us*/
+        .imagen-about-us{
+        margin-bottom: 60px;  
+        width: 99%; 
+        }
+        
+        .sobre-nosotros .contenido-textos{
+            width: 95%;
+            
+        }        
+          /*GALERIA*/
+        .imagen-port{
+        width: 95%;        
+        } 
+        
+        /*Clients*/
+        
+        .cards .card{
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        
+        .cards .card img{
+            width: 90px;
+            height: 90px;
+           
+        }
+        
+        
+        
+         header{
+            background-position: center;
+        }
+        
+        .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;            
+            
+        } 
+        
+        .sobre-nosotros .contenido-textos{
+            width: 90%;
+            
+        }
+        .imagen-about-us{
+            width: 90%;
+        }
+        
+        /*galeria*/
+        .imagen-port{
+            width:44;
+        }
+        
+        /*clientes*/
+        .card{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;       
+            
+        }
+        .cards .card{
+            
+            width: 90%;
+            flex-direction: column;
+            
+        }
+        
+         .cards .card:first-child{
+            
+            margin-bottom: 30%;            
+        }
+        
+        .servicio-cont{
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .servicio-ind{
+            width: 100%; 
+            text-align: center;
+        }
+        
+        .servicio-ind:nth-child(1), ,servicio-ind:nth-child(2){
+           margin-bottom: 60px; 
+        }
+        
+        .servicio-ind img{
+            width: 90%;
+            
+        }
+        
+        /*footer*/
+        .contenedor-footer{
+            flex-direction: column;
+            border: none;
+            
+        }
+        
+        .content-foo{
+            margin-bottom: 20px;
+            text-align: center;            
+        }
+        
+        .content-foo h4{
+            border: none; 
+        }
+        
+         .content-foo p{
+            color: #ccc;
+            border-bottom: 1px solid #f2f2f2; 
+            padding-bottom: 20px;
+        }
+        
+        .titulo-final{
+            font-size: 20px;
+            
+        }       
+        
+
+}
+
+
