@@ -304,17 +304,19 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
     object-fit: cover;
     border: 3px solid #fff;
     border-radius: 50%;
+	float: left;
+	padding: 9px;
     display: block;
 }
 
 .cards .card > .contenido-texto-card{
-    width: 80px;
-    color: black;    
+     text-align-last: center;
+    padding-left: 0.5rem;  
 }
 
-.cards .card > .contenido-texto-card p{
+/*.cards .card > .contenido-texto-card {
     font-weight: 300;
-    padding-top: 5px;
+    padding-top: 5px;*/
 }
 
 /*our team*/
@@ -379,7 +381,7 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #9e9797;
 }
 
-    @media (max-width: 500px){
+    @media (max-width: 400px){
 
   	.menu-icon{
   		display: block;
@@ -447,7 +449,7 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 
 
 
-    @media (max-width: 500px){
+    @media (max-width: 400px){
         nav{
             text-align: center;
             padding: 30px
@@ -536,7 +538,14 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
         
          .cards .card:first-child{
             
-            margin-bottom: 30%;            
+            margin-bottom: 30%;  
+	 position: absolute;
+            font-size: 1rem;
+            margin: 0;
+            padding: 0 1rem;
+            vertical-align: middle;
+             flex-direction: column;
+             justify-content: center;	 
         }
         
         .servicio-cont{
