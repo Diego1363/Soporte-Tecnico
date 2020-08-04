@@ -531,21 +531,21 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
         }
         .cards .card{
             
-            width: 90%;
+            width: 87%;
             flex-direction: column;
+	    justify-content: center;
+            padding-right: 2px;
             
         }
         
          .cards .card:first-child{
             
             margin-bottom: 30%;  
-	 position: absolute;
-            font-size: 1rem;
-            margin: 0;
-            padding: 0 1rem;
+	   margin:10px;            
             vertical-align: middle;
              flex-direction: column;
-             justify-content: center;	 
+             justify-content: center;
+	     padding-bottom: 23px;
         }
         
         .servicio-cont{
