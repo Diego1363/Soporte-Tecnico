@@ -217,7 +217,7 @@ header{
   display:flex;
   justify-content: end;
   align-items: center;  
-  padding: 16px 85px;
+  padding: 10px 85px;
 }
 
 .navigation li{
