@@ -243,11 +243,11 @@ header{
     }
 
   
-   	/*.main{
+   	.main{
 	padding: top: 12rem;
         
 
-   	}*/
+   	}
 
    	header .textos-header{
    		display: flex;
