@@ -517,6 +517,8 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 
   .navigation ul li{
   display:block;
+  padding-right: 26px;	  
+	  
 }
 
   .navigation ul li a{
