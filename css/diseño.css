@@ -208,7 +208,7 @@ header{
   .equipo{
   	grid-area:equipo;
   	background: url('../img/computador.jpg');
-  	width: 100px; height: 800px;
+  	/*width: 100px; height: 800px;*/
   	margin-bottom: 6px;
   	margin-top: 10px;
   	/*margin:10px 10px;*/
