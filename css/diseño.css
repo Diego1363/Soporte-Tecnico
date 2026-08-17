@@ -209,12 +209,12 @@ header{
   	grid-area:equipo;
   	background: url('../img/computador5.jpg');
   	/*width: 100px; height: 800px;*/
-  	margin-bottom: 10px;
+  	margin-bottom: 6px;
   	margin-top: 10px;
   	/*margin:10px 10px;*/
   }
    .grid p{
-   	padding: 10px;
+   	padding: 9px;
    	font-size: 1.6em;
    }
 
